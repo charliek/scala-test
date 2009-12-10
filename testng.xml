@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTests" verbose="1">
+    <test name="scalatest">
+        <packages>
+            <package name="net.cknudsen.projects.scalatest.*" />
+        </packages>
+    </test>
+</suite>
